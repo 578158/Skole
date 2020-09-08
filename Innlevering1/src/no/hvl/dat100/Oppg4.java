@@ -16,14 +16,14 @@ public class Oppg4 {
 		final double TRINN1_PERCENT = 0.019;
 		
 		
-		Double salary = Double.parseDouble(JOptionPane.showInputDialog("Skriv inn din bruttoinntekt: "));
-		Double salaryMath = salary;
+		double salary = Double.parseDouble(JOptionPane.showInputDialog("Skriv inn din bruttoinntekt: "));
+		double salaryMath = salary;
 		
-		Double trinn4 = 0.0;
-		Double trinn3 = 0.0;
-		Double trinn2 = 0.0;
-		Double trinn1 = 0.0;
-		
+		double trinn4 = 0.0;
+		double trinn3 = 0.0;
+		double trinn2 = 0.0;
+		double trinn1 = 0.0;
+	
 		if (salaryMath > TRINN4_MIN) {
 			trinn4 = salaryMath - TRINN4_MIN;
 			salaryMath -= trinn4;
